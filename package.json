@@ -1,0 +1,9 @@
+{
+  "name": "pgb-node",
+  "version": "1.0.0",
+  "description": "PGB bindings for nodejs",
+  "main": "index.js",
+  "author": "Paul Campbell",
+  "license": "ISC",
+  "gypfile": true
+}

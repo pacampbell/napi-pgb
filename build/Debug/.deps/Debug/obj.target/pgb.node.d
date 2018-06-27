@@ -1,0 +1,1 @@
+cmd_Debug/obj.target/pgb.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=pgb.node -o Debug/obj.target/pgb.node -Wl,--start-group Debug/obj.target/pgb/pgb.o -Wl,--end-group `pkg-config --libs pgb`
